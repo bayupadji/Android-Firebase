@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".Tambah">
+
+    <EditText
+        android:id="@+id/edKode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Masukan Kode Barang"
+        android:importantForAutofill="no"
+        android:layout_marginBottom="10dp"/>
+
+    <EditText
+        android:id="@+id/edNama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Masukan Nama Barang"
+        android:importantForAutofill="no"
+        android:layout_marginBottom="10dp"/>
+
+    <EditText
+        android:id="@+id/edSatuan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Masukan Satuan"
+        android:importantForAutofill="no"
+        android:layout_marginBottom="10dp"/>
+
+    <EditText
+        android:id="@+id/edBeli"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Masukan Harga Beli"
+        android:importantForAutofill="no"
+        android:layout_marginBottom="10dp"/>
+
+    <EditText
+        android:id="@+id/edJual"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Masukan Harga Jual"
+        android:importantForAutofill="no"
+        android:layout_marginBottom="10dp"/>
+
+    <EditText
+        android:id="@+id/edStok"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Masukan Stok"
+        android:importantForAutofill="no"
+        android:layout_marginBottom="10dp"/>
+
+    <EditText
+        android:id="@+id/edMin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Masukan Stok Minimum"
+        android:importantForAutofill="no"
+        android:layout_marginBottom="10dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Simpan"
+        android:id="@+id/btn_simpan"/>
+</LinearLayout>
